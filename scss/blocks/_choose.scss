@@ -1,0 +1,85 @@
+.choose-section {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+}
+.choose {
+    background-image: url(../../images/choose-bg.png);
+    background-size: 1340px 703px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+.choose-header {
+    width: 581px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.choose-top-title {
+    @include textStyle($MB:0px,$FS:50px, $FW:700, $LH:58.59px,$Color:white);
+    text-transform: uppercase;
+}
+.choose-top-text {
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+@include textStyle($MB:0px,$FS:16px, $FW:400, $LH:28px,$Color:white);
+
+}
+.choose-wrapper {
+    width: 1340px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.choose-img{
+    width: 433px;
+    height: 500px;
+    
+}
+.choose-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 433px;
+}
+.choose-btm-title {
+    text-align: left;
+    margin-top: 28px;
+    @include textStyle($MB:10px,$FS:30px, $FW:500, $LH:35.18px,$Color:#333);
+//     font-family: Roboto;
+// font-size: 30px;
+// font-weight: 500;
+// line-height: 35.16px;
+// text-align: left;
+
+
+}
+.choose-btm-text {
+    text-align: left;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+@include textStyle($MB:0px,$FS:18px, $FW:400, $LH:28px,$Color:#333);
+padding-right: 56px;
+
+}
